@@ -24,3 +24,7 @@ expValidatorInstance.errorMessages = //designerErrors;
 		INVALIDVARIABLE : 'Index value can be used with arrays only.',
 		INVALID_OPERAND_IN_UNARY : 'The operator <b> \'%%\'</b> is undefined/incompatible for the operand type <b>\'%%\'</b>'
 };
+
+function mUtilCheckNaturalNum(n) {
+    return n >= 0 && Math.floor(n) === +n;
+}
