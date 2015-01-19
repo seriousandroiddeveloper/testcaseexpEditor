@@ -1,0 +1,39 @@
+#status .status-message  {
+display: block;
+padding: 6px 7px 7px;
+font-weight: bold;
+font-size: 14px;
+width: 250px;
+}
+
+div .success-alert-box {
+display: block;
+padding: 6px 7px 7px;
+font-size: 14px;
+color: black;
+background-color: white;
+position: relative;
+text-align: left;
+}
+div .failure-alert-box {
+display: block;
+padding: 6px 7px 7px;
+font-weight: bold;
+font-size: 14px;
+color: red;
+background-color: white;
+width: 250px;
+text-shadow: 0 -1px rgba(0,0,0,0.3);
+position: relative;
+text-align: left;
+}
+div .failure-alert-code {
+display: block;
+padding: 6px 7px 7px;
+font-weight: bold;
+font-size: 14px;
+color: black;
+background-color: white;
+position: relative;
+text-align: left;
+}
